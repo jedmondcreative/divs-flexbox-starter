@@ -97,7 +97,7 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: #36B5BD;
   height: 100%;
 }
 
@@ -116,11 +116,55 @@ body {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #FFFFFF;
-  padding-top: 30px;
+  background-color: #36B5BD;
+  width: 100%;
 
 }
 
-.div-1, .div-2, .div-3 {
+/*section.wrapper div.div-0 {
+  display: flex;
+}*/
+
+.div-0 {
+  color: #fff;
+  line-height: 1em;
+  font-family: 'Source Sans Pro', sans-serif;
+   font-size: 2em;
+  background-color: #36B5BD;
+  display: flex;
+  width: 100%;
+  align-items: ;
+  justify-content: center;
+
+} 
+
+
+.div-0 h1 {
+  font-weight: 700;
+  font-size: 1.5em;
+  line-height: 3.3em;
+  padding: 10px 30px 10px 30px;
+  margin: 10px;
+  background-color: #227277;
+  border: 2px solid #061314;
+
+
+}
+
+.div-1 {
+  color: #fff;
+  line-height: 1.3em;
+  font-size: 1em;
+  background-color: #36B5BD;
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 30px 30px 30px 30px;
+} 
+
+
+.div-2, .div-3, .div-4 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.3em;
@@ -133,11 +177,14 @@ body {
   justify-content: center;
   padding: 30px;
 
+
 }
 
 .rule {
   background-color:#FFFFFF;
   min-width: 1px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 
 
 
